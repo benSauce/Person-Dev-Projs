@@ -2,104 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>To Rylan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Magra&display=swap" rel="stylesheet">
 </head>
 
-<body>
-	<header>
-
-		<h2>
-			<span id="hola">Hola Rylan </span>
-		</h2>
-  </header>
-	<div id="myThoughts">
-		<h3> Some of My Thoughts </h3>
-		<hr> <!-- Draw a horizontal line with formatting defined by css -->
- 
-		<ul>  <!-- Beginning of unordered list 1-->
-		
-			<li>  <!-- Start of first list item -->
-				<a href="week1/alertTest.html">Alert Test</a>  <!-- link to Launch alertTest -->
-			</li>  <!-- End of first list item -->
-			
-			<li>  <!-- Start of second list item -->
-				<a href="week1/jsHelloWorld.html">JS Hello World</a>  <!-- link to jsHelloWorld lab -->
-			</li>  <!-- End of second list item -->
-			
-			<li>  <!-- Start of third list item -->
-				<a href="week2/luffy.html">IDed and Styled</a>  <!-- link to IDed and Styled lab -->
-			</li>  <!-- End of third list item -->
-			
-			<li>  <!-- Start of fourth list item -->
-				<a href="week3/textoutput.html">Multi-Writes</a>  <!-- link to Multi-Writes lab -->
-			</li>  <!-- End of fourth list item -->
-			
-			<li>  <!-- Start of fifth list item -->
-				<a href="week3/promptConversions.html">Conversions-Name</a>  <!-- link to Conversions-Name Lab -->
-			</li>  <!-- End of fifth list item -->
-			
-			<li>  <!-- Start of sixth list item -->
-				<a href="week4/tryin2Function.html">Tryin' to Function</a>  <!-- link to Functinos Lab -->
-			</li>  <!-- End of sixth list item -->
-			
-			<li>  <!-- Start of seventh list item -->
-				<a href="week5/randomness.html">Randomness</a>  <!-- link to Randomness Lab -->
-			</li>  <!-- End of seventh list item -->
-
-			<li>  <!-- Start of eighth list item -->
-				<a href="week6/iffy.html">Getting Iffy</a>  <!-- link to Iffy Lab -->
-			</li>  <!-- End of eighth list item -->
-
-
-        
-		</ul>  <!-- End of unordered list 1-->
-
-		<ul>  <!-- Beginning of unordered list 2-->
-
-			<li>  <!-- Start of ninth list item -->
-				<a href="week6/moiffy.html">Getting Iffy-er</a>  <!-- link to More Ifs Lab -->
-			</li>  <!-- End of ninth list item -->
-
-			<li>  <!-- Start of tenth list item -->
-				<a href="week7/looping.html">Looping through Arrays</a>  <!-- link to Looping through arrays Lab -->
-			</li>  <!-- End of tenth list item -->
-
-			<li>  <!-- Start of eleventh list item -->
-				<a href="week7/stringFleet.html">Fleet of Strings</a>  <!-- link to String Object Lab -->
-			</li>  <!-- End of eleventh list item -->
-
-			<li>  <!-- Start of twelfth list item -->
-				<a href="week8/functions&events.html">Functions & Events</a>  <!-- link to Functions/Events Lab -->
-			</li>  <!-- End of twelth list item -->
-
-			<li>  <!-- Start of thirteenth list item -->
-				<a href="week9/jQueryAhoy.html">Ahoy jQuery!</a>  <!-- link to Ahoy jQuery! Lab -->
-			</li>  <!-- End of thirteenth list item -->
-
-			<li>  <!-- Start of fourteenth list item -->
-				<a href="week10/pickMe.html">Pick Me!</a>  <!-- link to Pick Me! Lab -->
-			</li>  <!-- End of fourteenth list item -->
-
-			<li>  <!-- Start of fifteenth list item -->
-				<a href="week11/moveShake.html">Movers & Shakers</a>  <!-- Movers & Shakers -->
-			</li>  <!-- End of fifteenth list item -->
-
-			<li>  <!-- Start of sixteenth list item -->
-				<a href="week12/triggered.html">Triggered</a>  <!-- Triggered -->
-			</li>  <!-- End of sixteenth list item -->
-
-		</ul>  <!-- End of unordered list 2-->
-
-		<ul id="list3">  <!-- Beginning of unordered list 3-->
-
-			<li>  <!-- Start of seventeenth list item -->
-				<a href="finalProjectIndex.html">Final Project</a>  <!-- Final Project Link -->
-			</li>  <!-- End of seventeenth list item -->
-
-		</ul>  <!-- End of unordered list 3-->
-	</div><!-- end div id="assignments" -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="indexScript.js"></script>
+<body">
+<div class="erryThang wholePage gradient-background">
+  <section id="greetSect">
+    <div class="d-flex justify-content-center">
+      <div class="greeting pt-5">
+        <h2>
+          <span id="hola">
+            Hi Rylan!
+          </span>
+        </h2>
+      </div>
+    </div>
+  </section>
+  <section id="intro">
+    <div class="container">
+      <div class="explain d-flex justify-content-center mx-3 my-3 text-center">
+        <h3>
+          So, I've had a bunch of thoughts and I figured I'm overdue to share them 😮
+        </h3>
+      </div>
+      <div class="firstHang text-center">
+        <img id="yeahYeah" class="img-fluid max-width: 100% my-4" src="./images/laPrimera.jpg" alt="firstDayHanging">
+        <h3>
+          <span>but first, this was a fun ass day and the first time we really hung out :)</span>
+        </h3>
+        <h3>
+          <a href="./dearRylan/dearRylan.html" class="btn btn-outline-light btn-lg active m-3" role="button" aria-pressed="true"">Dear Rylan</a>
+        </h3>
+      </div>
+    </div>
+  </section>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="indexScript.js"></script>
 </body>
 </html>
+
+<!--
+<img src="./images/laPrimera.jpg" alt="firstDayHanging">
+-->
