@@ -21,7 +21,7 @@ body{
 }
 
 .wholePage{
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
 }
 
@@ -47,4 +47,9 @@ p{
 .greeting{
   text-align: center;
   padding-bottom: 2%;
+  font-size: larger;
+}
+
+.parra{
+  font-size: larger;
 }
