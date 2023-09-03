@@ -25,10 +25,26 @@ body{
   width: 100vw;
 }
 
-.firstHang{
-  height: 40vh;
+body{
+  margin: 0px;
 }
 
-#yeahYeah{
-  border-radius: 8%;
-  width: 40vw;
+p{
+  margin: 0px;
+  color: rgb(0, 0, 0);
+}
+
+.headerer{
+  text-align: center;
+  color: white;
+  height: 5vh;
+}
+
+.parra{
+  padding: 0px 5% 3%;
+}
+
+.greeting{
+  text-align: center;
+  padding-bottom: 2%;
+}
